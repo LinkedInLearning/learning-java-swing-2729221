@@ -28,7 +28,7 @@ To resolve this issue:
 
 ## Instructor
 
-Instructor name
+Peggy Fisher
 
 Instructor description
 
