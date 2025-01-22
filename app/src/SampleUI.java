@@ -42,6 +42,7 @@ public class SampleUI extends JFrame{
         shiftSelection.addItem("Morning");
         shiftSelection.addItem("Afternoon");
         shiftSelection.addItem("Evening");
+        shiftSelection.addItem("Overnight");
 
     }
 }
