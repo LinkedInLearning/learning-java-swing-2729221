@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-      //  TestGridLayout gridLayout = new TestGridLayout();
+    //   TestGridLayout gridLayout = new TestGridLayout();
     //   TestBorderLayout borderLayout = new TestBorderLayout();
         TestFlowLayout flowLayout = new TestFlowLayout();
     }
