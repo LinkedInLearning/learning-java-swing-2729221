@@ -19,11 +19,22 @@ public class ExampleEventsUI extends JFrame  {
 
         initComponents();
         add(panel1);
-        setSize(400, 400);
+        setSize(400,400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
-    }
 
+        checkBox1.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                //System.out.println(e.getStateChange());
+                if(e.getStateChange()==1) {
+                    System.out.println("Check box 1 was selected");
+                }
+                else
+                    System.out.println("Check box 1 was deseled");
+            }
+        });
+    }
     public void initComponents() {
         comboBox1 = new JComboBox<String>();
         comboBox1.addItem("item1");
