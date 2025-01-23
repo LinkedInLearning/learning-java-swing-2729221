@@ -27,4 +27,6 @@ public class TestBoxLayout extends JFrame{
         button.setAlignmentX(Component.CENTER_ALIGNMENT);
         container.add(button);
     }
+
+
 }
