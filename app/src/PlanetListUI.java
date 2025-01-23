@@ -40,7 +40,7 @@ public class PlanetListUI extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String name = txtPlanetName.getText();
                 if(name.equals("") || alreadyInList(name) || name.equals("Enter planet name here")) {
-                    txtPlanetName.setText("Enter planet to add");
+                    txtPlanetName.setText("Enter planet name here");
                 }
                 else {
                     int index = planetList.getSelectedIndex();
