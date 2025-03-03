@@ -1,5 +1,11 @@
 # Learning Java Swing 
-This is the repository for the LinkedIn Learning course Learning Java Swing. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Learning Java Swing . The full course is available from [LinkedIn Learning][lil-course-url].
+
+![lil-thumbnail-url]
+
+## Course Description
+
+Discover how to use Swing—a graphical user interface (GUI) builder for Java applications—to create a GUI in Java. In this course, Peggy Fisher helps to familiarize you with the basics of Swing, and shares what you need to know to create a GUI in Java. She discusses fundamental concepts, such as MVC architecture and using a WYSIWYG editor. In addition, she covers containers, Swing components, layouts, and handling events—which occur when a user interacts with the interface.
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
@@ -20,25 +26,19 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 ## Instructor
 
 Peggy Fisher
 
-Computer Programming and Learning Experience Designer.
+Programmer
 
                             
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/peggy-fisher?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/learning-java-swing/
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQHDmLuUJb1qZg/learning-public-crop_675_1200/B4DZU_tRNaHIAc-/0/1740530586742?e=2147483647&v=beta&t=_W9eYo4hfcQz89YRdkj2mKCuhrZrWn4eaxYM3Xhar4s
 
