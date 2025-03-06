@@ -27,17 +27,11 @@ public class SampleUI extends JFrame{
         setVisible(true);
         setupRadioGroup();
         setupShiftSelection();
-
         add(contentPanel);
     }
 
     public void setupRadioGroup(){
         ButtonGroup group = new ButtonGroup();
-        mondayRadioButton = new JRadioButton("Monday");
-        tuesdayRadioButton = new JRadioButton("Tuesday");
-        wednesdayRadioButton = new JRadioButton("Wednesday");
-        thursdayRadioButton = new JRadioButton("Thursday");
-        fridayRadioButton = new JRadioButton("Friday");
         group.add(mondayRadioButton);
         group.add(tuesdayRadioButton);
         group.add(wednesdayRadioButton);
