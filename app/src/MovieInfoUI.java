@@ -17,7 +17,7 @@
         initComponents();
     }
     public void initComponents() {
-        contentPanel = new JPanel(new GridLayout(5,2));
+        contentPanel = new JPanel(new GridLayout(3,2));
         buttonPanel = new JPanel(new GridLayout(1,4));
         lblPageTitle = new JLabel("My Favorite Movies");
         lblMovieTitle = new JLabel("   Movie Title: ");
